@@ -1,0 +1,16 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "grpc service. 1.get machineID 2.create cdkey (encode machineID by RSA private key) 4.post cdkey",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "peiwen <javapeiwen2010@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "grpc": "^1.21.1",
+    "node-rsa": "^1.0.5"
+  }
+}
