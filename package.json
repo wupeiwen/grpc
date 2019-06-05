@@ -1,0 +1,17 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "grpc client. 1.create machineID 2.post machineID 3.decode CDKEY by RSA public key 4.compare code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "peiwen <javapeiwen2010@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "grpc": "^1.21.1",
+    "node-machine-id": "^1.1.12",
+    "node-rsa": "^1.0.5"
+  }
+}
